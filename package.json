@@ -1,0 +1,22 @@
+{
+  "name": "try-lowdb",
+  "version": "1.0.0",
+  "description": "",
+  "type":"module",
+  "exports": "./index.js",
+  "engines":{
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "module": "ES2020",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-json": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lowdb": "^2.1.0",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  }
+}
